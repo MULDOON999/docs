@@ -1,5 +1,4 @@
----
-title: Working with the Docker registry
+--tite: Working with the Docker registry
 intro: '{% ifversion fpt %}The Docker registry has now been replaced by the {% data variables.product.prodname_container_registry %}.{% else %}You can push and pull your Docker images using the {% data variables.product.prodname_registry %} Docker registry, which uses the package namespace `https://docker.pkg.github.com`.{% endif %}'
 product: '{% data reusables.gated-features.packages %}'
 redirect_from:
@@ -13,10 +12,7 @@ versions:
   fpt: '*'
   ghes: '*'
   ghae: '*'
-shortTitle: Docker registry
----
-
-<!-- Main versioning block. Short page for dotcom -->
+shortTitle: Docker regist<!-- Main versioning block. Short page for dotcom -->
 {% ifversion fpt %}
 
 {% data variables.product.prodname_dotcom %}'s Docker registry (which used the namespace `docker.pkg.github.com`) has been replaced by the {% data variables.product.prodname_container_registry %} (which uses the namespace `https://ghcr.io`). The {% data variables.product.prodname_container_registry %} offers benefits such as granular permissions and storage optimization for Docker images.
